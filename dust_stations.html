@@ -1,0 +1,2230 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3e57cf1ef36ec0adaaf26a8a2f56e0fa {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3e57cf1ef36ec0adaaf26a8a2f56e0fa" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3e57cf1ef36ec0adaaf26a8a2f56e0fa = L.map(
+                "map_3e57cf1ef36ec0adaaf26a8a2f56e0fa",
+                {
+                    center: [48.914122966071425, 11.373101192857144],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+  "figsize": [10, 10],
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5ac73a693e669cb4c5ed8fbb03edec4d = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_5ac73a693e669cb4c5ed8fbb03edec4d.addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var marker_7fcd2c348ae340c657d3be79e3af3b66 = L.marker(
+                [47.9707407, 11.2194752],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_7b38c6ea18ae5b05a5429a12f2c080c3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d2ffbc01646a2aef0dcd539a781277dd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b748859352da16c54ae8ff4d75bdac8a = $(`<div id="html_b748859352da16c54ae8ff4d75bdac8a" style="width: 100.0%; height: 100.0%;">NO, O3-Station: Andechs/Rothenfeld</div>`)[0];
+                popup_d2ffbc01646a2aef0dcd539a781277dd.setContent(html_b748859352da16c54ae8ff4d75bdac8a);
+            
+        
+
+        marker_7fcd2c348ae340c657d3be79e3af3b66.bindPopup(popup_d2ffbc01646a2aef0dcd539a781277dd)
+        ;
+
+        
+    
+    
+                marker_7fcd2c348ae340c657d3be79e3af3b66.setIcon(icon_7b38c6ea18ae5b05a5429a12f2c080c3);
+            
+    
+            var marker_bf22897c669a97136a8334f4dd5f3966 = L.marker(
+                [49.3050055, 10.5666967],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_20471fd034f6c5b6ab76defac33bf625 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7410b9b0a2493ec61cd32e031426fd08 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_599fb172131ab55d1c6257413dbe8147 = $(`<div id="html_599fb172131ab55d1c6257413dbe8147" style="width: 100.0%; height: 100.0%;">NO-Station: Ansbach/Residenzstraße</div>`)[0];
+                popup_7410b9b0a2493ec61cd32e031426fd08.setContent(html_599fb172131ab55d1c6257413dbe8147);
+            
+        
+
+        marker_bf22897c669a97136a8334f4dd5f3966.bindPopup(popup_7410b9b0a2493ec61cd32e031426fd08)
+        ;
+
+        
+    
+    
+                marker_bf22897c669a97136a8334f4dd5f3966.setIcon(icon_20471fd034f6c5b6ab76defac33bf625);
+            
+    
+            var marker_9617c6ed4374365212772fa6fdccb4e3 = L.marker(
+                [50.0598689, 12.1908197],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_5f372a3623525d055f812a79384d5793 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_78b2415e1f6ec0ebf8f72e473e45d75b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_87f3c71096fefdfd52a4e38077293c1c = $(`<div id="html_87f3c71096fefdfd52a4e38077293c1c" style="width: 100.0%; height: 100.0%;">O3-Station: Arzberg/Egerstraße</div>`)[0];
+                popup_78b2415e1f6ec0ebf8f72e473e45d75b.setContent(html_87f3c71096fefdfd52a4e38077293c1c);
+            
+        
+
+        marker_9617c6ed4374365212772fa6fdccb4e3.bindPopup(popup_78b2415e1f6ec0ebf8f72e473e45d75b)
+        ;
+
+        
+    
+    
+                marker_9617c6ed4374365212772fa6fdccb4e3.setIcon(icon_5f372a3623525d055f812a79384d5793);
+            
+    
+            var marker_d08b54c5c34c4edcec660d2023ffa2ea = L.marker(
+                [49.9922833, 9.1169701],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_b2ed8c960c4ecd369f3011326c196845 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6d6dfd1c819d22fb42c215c3819fa36c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7dc9d8a5069539251888e1cff097c042 = $(`<div id="html_7dc9d8a5069539251888e1cff097c042" style="width: 100.0%; height: 100.0%;">NO, O3-Station: Aschaffenburg/Bussardweg</div>`)[0];
+                popup_6d6dfd1c819d22fb42c215c3819fa36c.setContent(html_7dc9d8a5069539251888e1cff097c042);
+            
+        
+
+        marker_d08b54c5c34c4edcec660d2023ffa2ea.bindPopup(popup_6d6dfd1c819d22fb42c215c3819fa36c)
+        ;
+
+        
+    
+    
+                marker_d08b54c5c34c4edcec660d2023ffa2ea.setIcon(icon_b2ed8c960c4ecd369f3011326c196845);
+            
+    
+            var marker_e6be50387e3e79a6bd5a7224ed4c671e = L.marker(
+                [48.3770721, 10.8894922],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_66d8f1fc0a3d248b9ba2007283f91e39 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_db3f231873a88e91a939ea753a0f521b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_27a2d36c3fc85d905179313add686616 = $(`<div id="html_27a2d36c3fc85d905179313add686616" style="width: 100.0%; height: 100.0%;">NO, O3-Station: Augsburg/Bourges-Platz</div>`)[0];
+                popup_db3f231873a88e91a939ea753a0f521b.setContent(html_27a2d36c3fc85d905179313add686616);
+            
+        
+
+        marker_e6be50387e3e79a6bd5a7224ed4c671e.bindPopup(popup_db3f231873a88e91a939ea753a0f521b)
+        ;
+
+        
+    
+    
+                marker_e6be50387e3e79a6bd5a7224ed4c671e.setIcon(icon_66d8f1fc0a3d248b9ba2007283f91e39);
+            
+    
+            var marker_eb03e20b5d4ebade273c0163da7ea519 = L.marker(
+                [48.3702166, 10.8965203],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_6f82cbbabad17ab6270be14b3ed7a1ab = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_21e5eba63b59e5ace9fa73c708510a3e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bd8a04e63175711dada96741621d0422 = $(`<div id="html_bd8a04e63175711dada96741621d0422" style="width: 100.0%; height: 100.0%;">NO-Station: Augsburg/Karlstraße</div>`)[0];
+                popup_21e5eba63b59e5ace9fa73c708510a3e.setContent(html_bd8a04e63175711dada96741621d0422);
+            
+        
+
+        marker_eb03e20b5d4ebade273c0163da7ea519.bindPopup(popup_21e5eba63b59e5ace9fa73c708510a3e)
+        ;
+
+        
+    
+    
+                marker_eb03e20b5d4ebade273c0163da7ea519.setIcon(icon_6f82cbbabad17ab6270be14b3ed7a1ab);
+            
+    
+            var marker_12d4826f98378e082735a8b46e46e371 = L.marker(
+                [48.3654894, 10.8944651],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_8be8d8ead3e263555caadad858723ef7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4f9a6ab7963a15a75c8b1df68f7dab18 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5a9e2b708e65f292aca11e0ea64bdeb6 = $(`<div id="html_5a9e2b708e65f292aca11e0ea64bdeb6" style="width: 100.0%; height: 100.0%;">NO-Station: Augsburg/Königsplatz</div>`)[0];
+                popup_4f9a6ab7963a15a75c8b1df68f7dab18.setContent(html_5a9e2b708e65f292aca11e0ea64bdeb6);
+            
+        
+
+        marker_12d4826f98378e082735a8b46e46e371.bindPopup(popup_4f9a6ab7963a15a75c8b1df68f7dab18)
+        ;
+
+        
+    
+    
+                marker_12d4826f98378e082735a8b46e46e371.setIcon(icon_8be8d8ead3e263555caadad858723ef7);
+            
+    
+            var marker_b6fd3a890af19ecf28938f5006458e9a = L.marker(
+                [48.3265312, 10.8980324],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_d89650006efd6375cb7b6704f0133065 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4b152020a5b0184ac6b9e2f4d77a63f5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_32671ca2b91039d356907bebb460ae67 = $(`<div id="html_32671ca2b91039d356907bebb460ae67" style="width: 100.0%; height: 100.0%;">NO, O3-Station: Augsburg/LfU</div>`)[0];
+                popup_4b152020a5b0184ac6b9e2f4d77a63f5.setContent(html_32671ca2b91039d356907bebb460ae67);
+            
+        
+
+        marker_b6fd3a890af19ecf28938f5006458e9a.bindPopup(popup_4b152020a5b0184ac6b9e2f4d77a63f5)
+        ;
+
+        
+    
+    
+                marker_b6fd3a890af19ecf28938f5006458e9a.setIcon(icon_d89650006efd6375cb7b6704f0133065);
+            
+    
+            var marker_69b43e71797442a4365e3138d9d1bd17 = L.marker(
+                [47.5163566, 10.4063763],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_5cd1273ff3274358af1ef3574d199deb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d8873a6088327772398417e42983b8f8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3b56b964eea2eebec9e9736caa96ae4f = $(`<div id="html_3b56b964eea2eebec9e9736caa96ae4f" style="width: 100.0%; height: 100.0%;">NO, O3-Station: Bad Hindelang/Oberjoch</div>`)[0];
+                popup_d8873a6088327772398417e42983b8f8.setContent(html_3b56b964eea2eebec9e9736caa96ae4f);
+            
+        
+
+        marker_69b43e71797442a4365e3138d9d1bd17.bindPopup(popup_d8873a6088327772398417e42983b8f8)
+        ;
+
+        
+    
+    
+                marker_69b43e71797442a4365e3138d9d1bd17.setIcon(icon_5cd1273ff3274358af1ef3574d199deb);
+            
+    
+            var marker_084f579eca224eda5d86885c9eb75d74 = L.marker(
+                [47.5445057, 10.4252724],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_6338a94fdc26e1c549d07f0d4de85eb0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5334bea5618f96353e8a8d538642ff56 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_986233f62d0c020351ff9c82e0238732 = $(`<div id="html_986233f62d0c020351ff9c82e0238732" style="width: 100.0%; height: 100.0%;">NO, O3-Station: Bad Hindelang/Unterjoch</div>`)[0];
+                popup_5334bea5618f96353e8a8d538642ff56.setContent(html_986233f62d0c020351ff9c82e0238732);
+            
+        
+
+        marker_084f579eca224eda5d86885c9eb75d74.bindPopup(popup_5334bea5618f96353e8a8d538642ff56)
+        ;
+
+        
+    
+    
+                marker_084f579eca224eda5d86885c9eb75d74.setIcon(icon_6338a94fdc26e1c549d07f0d4de85eb0);
+            
+    
+            var marker_9e3d53e09853bbf350aee65a00b8531e = L.marker(
+                [47.7337735, 12.8902934],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_d301ecf66a37bfc6c946ecc4d5f066e8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d1953ce5a988a64edb8def00c049428f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e1f19e3cf3c08e9ff64adc2f17fd5eb4 = $(`<div id="html_e1f19e3cf3c08e9ff64adc2f17fd5eb4" style="width: 100.0%; height: 100.0%;">NO, O3-Station: Bad Reichenhall/Kirchholzstraße</div>`)[0];
+                popup_d1953ce5a988a64edb8def00c049428f.setContent(html_e1f19e3cf3c08e9ff64adc2f17fd5eb4);
+            
+        
+
+        marker_9e3d53e09853bbf350aee65a00b8531e.bindPopup(popup_d1953ce5a988a64edb8def00c049428f)
+        ;
+
+        
+    
+    
+                marker_9e3d53e09853bbf350aee65a00b8531e.setIcon(icon_d301ecf66a37bfc6c946ecc4d5f066e8);
+            
+    
+            var marker_3f924318249207f0ced3934d4e90e1af = L.marker(
+                [49.8977634, 10.8872976],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_199492d107ff2097421591319c2b2adf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_88b2503397d250c6db1ead30ccfd34f2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d4770587e1e30f1e5e98dac0427e1e6a = $(`<div id="html_d4770587e1e30f1e5e98dac0427e1e6a" style="width: 100.0%; height: 100.0%;">NO-Station: Bamberg/Löwenbrücke</div>`)[0];
+                popup_88b2503397d250c6db1ead30ccfd34f2.setContent(html_d4770587e1e30f1e5e98dac0427e1e6a);
+            
+        
+
+        marker_3f924318249207f0ced3934d4e90e1af.bindPopup(popup_88b2503397d250c6db1ead30ccfd34f2)
+        ;
+
+        
+    
+    
+                marker_3f924318249207f0ced3934d4e90e1af.setIcon(icon_199492d107ff2097421591319c2b2adf);
+            
+    
+            var marker_57b45a2b00c306369923b7fc71a8e75f = L.marker(
+                [49.9470876, 11.5777172],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_ed5f63cc4f95c949d0dd893015d4d028 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_79cfc803d3b5a3b06362452733b69da2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_71d1b646234fc2356a6bbe04607a05d7 = $(`<div id="html_71d1b646234fc2356a6bbe04607a05d7" style="width: 100.0%; height: 100.0%;">NO-Station: Bayreuth/Hohenzollernring</div>`)[0];
+                popup_79cfc803d3b5a3b06362452733b69da2.setContent(html_71d1b646234fc2356a6bbe04607a05d7);
+            
+        
+
+        marker_57b45a2b00c306369923b7fc71a8e75f.bindPopup(popup_79cfc803d3b5a3b06362452733b69da2)
+        ;
+
+        
+    
+    
+                marker_57b45a2b00c306369923b7fc71a8e75f.setIcon(icon_ed5f63cc4f95c949d0dd893015d4d028);
+            
+    
+            var marker_e41f9bb79e7745568292efd9e86610aa = L.marker(
+                [49.4437042, 10.3243799],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_000017e1435d096dd377ad06c4ede1fc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_432bb29dadbfa16e714ef6e753d107fb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3c07fdd5c199e750adc64d3eb1e1d71b = $(`<div id="html_3c07fdd5c199e750adc64d3eb1e1d71b" style="width: 100.0%; height: 100.0%;">NO, O3-Station: Burgbernheim/Grüne Au</div>`)[0];
+                popup_432bb29dadbfa16e714ef6e753d107fb.setContent(html_3c07fdd5c199e750adc64d3eb1e1d71b);
+            
+        
+
+        marker_e41f9bb79e7745568292efd9e86610aa.bindPopup(popup_432bb29dadbfa16e714ef6e753d107fb)
+        ;
+
+        
+    
+    
+                marker_e41f9bb79e7745568292efd9e86610aa.setIcon(icon_000017e1435d096dd377ad06c4ede1fc);
+            
+    
+            var marker_f6f6e0bae7f67dd5e3959c6c1305a95f = L.marker(
+                [48.1668857, 12.8325302],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_11e2009e985b3b21b0639b707b8a9c58 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5cbfa8b298d7e650522634562d823ba3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d619363a0b0d65e44ca3b58a2b0577a6 = $(`<div id="html_d619363a0b0d65e44ca3b58a2b0577a6" style="width: 100.0%; height: 100.0%;">NO, O3-Station: Burghausen/Marktler Straße</div>`)[0];
+                popup_5cbfa8b298d7e650522634562d823ba3.setContent(html_d619363a0b0d65e44ca3b58a2b0577a6);
+            
+        
+
+        marker_f6f6e0bae7f67dd5e3959c6c1305a95f.bindPopup(popup_5cbfa8b298d7e650522634562d823ba3)
+        ;
+
+        
+    
+    
+                marker_f6f6e0bae7f67dd5e3959c6c1305a95f.setIcon(icon_11e2009e985b3b21b0639b707b8a9c58);
+            
+    
+            var marker_5221b5c286befdf94c683753dce0097e = L.marker(
+                [50.2615098, 10.9586319],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_197af0d47f2a9ec70b0fbcc64f7cede1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_96f9384a98df1786b91f8d68aaa92c30 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_54e3220358e374627acc9584e2175ffa = $(`<div id="html_54e3220358e374627acc9584e2175ffa" style="width: 100.0%; height: 100.0%;">NO-Station: Coburg/Lossaustraße</div>`)[0];
+                popup_96f9384a98df1786b91f8d68aaa92c30.setContent(html_54e3220358e374627acc9584e2175ffa);
+            
+        
+
+        marker_5221b5c286befdf94c683753dce0097e.bindPopup(popup_96f9384a98df1786b91f8d68aaa92c30)
+        ;
+
+        
+    
+    
+                marker_5221b5c286befdf94c683753dce0097e.setIcon(icon_197af0d47f2a9ec70b0fbcc64f7cede1);
+            
+    
+            var marker_326cbe0e50d88ff02ae4bb705990c66c = L.marker(
+                [49.606171, 10.9648713],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_29f7de6e20f055c6c2698f68d87830f0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8df27413d7d3a5a1c9ff6fae2ce2c04b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c7d4ca81191c13b3333e2d4084a664a2 = $(`<div id="html_c7d4ca81191c13b3333e2d4084a664a2" style="width: 100.0%; height: 100.0%;">NO, O3-Station: Erlangen/Kraepelinstraße</div>`)[0];
+                popup_8df27413d7d3a5a1c9ff6fae2ce2c04b.setContent(html_c7d4ca81191c13b3333e2d4084a664a2);
+            
+        
+
+        marker_326cbe0e50d88ff02ae4bb705990c66c.bindPopup(popup_8df27413d7d3a5a1c9ff6fae2ce2c04b)
+        ;
+
+        
+    
+    
+                marker_326cbe0e50d88ff02ae4bb705990c66c.setIcon(icon_29f7de6e20f055c6c2698f68d87830f0);
+            
+    
+            var marker_c03804c61b86370f5b7231a8a67f09de = L.marker(
+                [47.4769208, 11.0570112],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_cc9e1f62f0c83cde180ed4fc13beb4c5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d23afa2433b119c2f3277295728b1659 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2ac39af5f71ba0d14d5edbc381e2b62a = $(`<div id="html_2ac39af5f71ba0d14d5edbc381e2b62a" style="width: 100.0%; height: 100.0%;">NO, O3-Station: Garmisch-Partenkirchen/Wasserwerk</div>`)[0];
+                popup_d23afa2433b119c2f3277295728b1659.setContent(html_2ac39af5f71ba0d14d5edbc381e2b62a);
+            
+        
+
+        marker_c03804c61b86370f5b7231a8a67f09de.bindPopup(popup_d23afa2433b119c2f3277295728b1659)
+        ;
+
+        
+    
+    
+                marker_c03804c61b86370f5b7231a8a67f09de.setIcon(icon_cc9e1f62f0c83cde180ed4fc13beb4c5);
+            
+    
+            var marker_7560025cd8f8a2a6cd548d2a48927fea = L.marker(
+                [50.3202694, 11.899126],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_624b17bc7f088d3372d887d594b1fb40 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c5fc44fe28777d6da3acfd4c51b48907 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4f61d5eb31969d0e474835b9adcbaa87 = $(`<div id="html_4f61d5eb31969d0e474835b9adcbaa87" style="width: 100.0%; height: 100.0%;">NO, O3-Station: Hof/LfU</div>`)[0];
+                popup_c5fc44fe28777d6da3acfd4c51b48907.setContent(html_4f61d5eb31969d0e474835b9adcbaa87);
+            
+        
+
+        marker_7560025cd8f8a2a6cd548d2a48927fea.bindPopup(popup_c5fc44fe28777d6da3acfd4c51b48907)
+        ;
+
+        
+    
+    
+                marker_7560025cd8f8a2a6cd548d2a48927fea.setIcon(icon_624b17bc7f088d3372d887d594b1fb40);
+            
+    
+            var marker_f825af24545c0798ddc5cc5ce3b1df70 = L.marker(
+                [48.7357621, 11.434321],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_243647f62505ec8b0a3d183474344801 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1d4be11555ff81720fa4b3e137b93996 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_337065d01b06694bdb2a827ad28c0c78 = $(`<div id="html_337065d01b06694bdb2a827ad28c0c78" style="width: 100.0%; height: 100.0%;">NO-Station: Ingolstadt/Münchener Straße</div>`)[0];
+                popup_1d4be11555ff81720fa4b3e137b93996.setContent(html_337065d01b06694bdb2a827ad28c0c78);
+            
+        
+
+        marker_f825af24545c0798ddc5cc5ce3b1df70.bindPopup(popup_1d4be11555ff81720fa4b3e137b93996)
+        ;
+
+        
+    
+    
+                marker_f825af24545c0798ddc5cc5ce3b1df70.setIcon(icon_243647f62505ec8b0a3d183474344801);
+            
+    
+            var marker_6d2123304b8973591e4210e27eaeb057 = L.marker(
+                [48.770516, 11.4301097],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_762f1f08292f3d831ca9c5fb2ecc9c16 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e53da5f146490235974e9b80427e6f3b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fdb26da96ac658cfc9fe7bef64aaac8c = $(`<div id="html_fdb26da96ac658cfc9fe7bef64aaac8c" style="width: 100.0%; height: 100.0%;">NO-Station: Ingolstadt/Rechbergstraße</div>`)[0];
+                popup_e53da5f146490235974e9b80427e6f3b.setContent(html_fdb26da96ac658cfc9fe7bef64aaac8c);
+            
+        
+
+        marker_6d2123304b8973591e4210e27eaeb057.bindPopup(popup_e53da5f146490235974e9b80427e6f3b)
+        ;
+
+        
+    
+    
+                marker_6d2123304b8973591e4210e27eaeb057.setIcon(icon_762f1f08292f3d831ca9c5fb2ecc9c16);
+            
+    
+            var marker_f832e92d7c07e178563bd348d8810141 = L.marker(
+                [48.9121734, 11.8723946],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_28478fb3cd75244d4e2e48ec7db19f69 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_33d5f99ee9b1a2f192cfb84e8f458183 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a62d87a3ebd85eff85918c4c228e645d = $(`<div id="html_a62d87a3ebd85eff85918c4c228e645d" style="width: 100.0%; height: 100.0%;">NO-Station: Kelheim/Regensburger Straße</div>`)[0];
+                popup_33d5f99ee9b1a2f192cfb84e8f458183.setContent(html_a62d87a3ebd85eff85918c4c228e645d);
+            
+        
+
+        marker_f832e92d7c07e178563bd348d8810141.bindPopup(popup_33d5f99ee9b1a2f192cfb84e8f458183)
+        ;
+
+        
+    
+    
+                marker_f832e92d7c07e178563bd348d8810141.setIcon(icon_28478fb3cd75244d4e2e48ec7db19f69);
+            
+    
+            var marker_7b1d37137b90bea799a683974f9cd3be = L.marker(
+                [47.7278341, 10.3058514],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_56769286c504861ead17028526cd5c88 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ec94f116e47df827759894b2878c4400 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_06344d48f50cde3e365efcdfb3bb29c1 = $(`<div id="html_06344d48f50cde3e365efcdfb3bb29c1" style="width: 100.0%; height: 100.0%;">NO, O3-Station: Kempten (Allgäu)/Westendstraße</div>`)[0];
+                popup_ec94f116e47df827759894b2878c4400.setContent(html_06344d48f50cde3e365efcdfb3bb29c1);
+            
+        
+
+        marker_7b1d37137b90bea799a683974f9cd3be.bindPopup(popup_ec94f116e47df827759894b2878c4400)
+        ;
+
+        
+    
+    
+                marker_7b1d37137b90bea799a683974f9cd3be.setIcon(icon_56769286c504861ead17028526cd5c88);
+            
+    
+            var marker_08a884ce57dd328adef81f03d61d831f = L.marker(
+                [49.8677804, 9.1739054],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_e8f03b03a5f226610d763806e18c5556 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_38a4757de469418750ccc9317f960a0c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d917f128ba44b9101fd98c5d67c33957 = $(`<div id="html_d917f128ba44b9101fd98c5d67c33957" style="width: 100.0%; height: 100.0%;">NO, O3-Station: Kleinwallstadt/Hofstetter Straße</div>`)[0];
+                popup_38a4757de469418750ccc9317f960a0c.setContent(html_d917f128ba44b9101fd98c5d67c33957);
+            
+        
+
+        marker_08a884ce57dd328adef81f03d61d831f.bindPopup(popup_38a4757de469418750ccc9317f960a0c)
+        ;
+
+        
+    
+    
+                marker_08a884ce57dd328adef81f03d61d831f.setIcon(icon_e8f03b03a5f226610d763806e18c5556);
+            
+    
+            var marker_c29be2d50e472760994b4c268986c098 = L.marker(
+                [50.1031371, 11.4417446],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_31ddd889f2b8a5a0bed4395edf0b1a6e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_68e8e13734351aa2c78a46850b4dc2c1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2191335ddea9828c28db457a41d9a331 = $(`<div id="html_2191335ddea9828c28db457a41d9a331" style="width: 100.0%; height: 100.0%;">NO-Station: Kulmbach/Konrad-Adenauer-Straße</div>`)[0];
+                popup_68e8e13734351aa2c78a46850b4dc2c1.setContent(html_2191335ddea9828c28db457a41d9a331);
+            
+        
+
+        marker_c29be2d50e472760994b4c268986c098.bindPopup(popup_68e8e13734351aa2c78a46850b4dc2c1)
+        ;
+
+        
+    
+    
+                marker_c29be2d50e472760994b4c268986c098.setIcon(icon_31ddd889f2b8a5a0bed4395edf0b1a6e);
+            
+    
+            var marker_bd0ebf8b06880cd7856d1363782912b5 = L.marker(
+                [48.5375029, 12.1605348],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_a5c99734c849c1996cb44e233df82076 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_00e3239a46bfd9b3380fca5d7a4f8c2f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_76150dc3e68daf77c658ad5c43154f4e = $(`<div id="html_76150dc3e68daf77c658ad5c43154f4e" style="width: 100.0%; height: 100.0%;">NO-Station: Landshut/Podewilsstraße</div>`)[0];
+                popup_00e3239a46bfd9b3380fca5d7a4f8c2f.setContent(html_76150dc3e68daf77c658ad5c43154f4e);
+            
+        
+
+        marker_bd0ebf8b06880cd7856d1363782912b5.bindPopup(popup_00e3239a46bfd9b3380fca5d7a4f8c2f)
+        ;
+
+        
+    
+    
+                marker_bd0ebf8b06880cd7856d1363782912b5.setIcon(icon_a5c99734c849c1996cb44e233df82076);
+            
+    
+            var marker_5154b37ac32c0e41d5a87868a22dd7aa = L.marker(
+                [47.5644082, 9.6790468],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_1f7d033b38abb35c6b585558727bcc4d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0b40655c765b779010004139ed69d29f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_997f8385f0068c0f01f9296978ea1747 = $(`<div id="html_997f8385f0068c0f01f9296978ea1747" style="width: 100.0%; height: 100.0%;">NO-Station: Lindau (Bodensee)/Friedrichshafener Str.</div>`)[0];
+                popup_0b40655c765b779010004139ed69d29f.setContent(html_997f8385f0068c0f01f9296978ea1747);
+            
+        
+
+        marker_5154b37ac32c0e41d5a87868a22dd7aa.bindPopup(popup_0b40655c765b779010004139ed69d29f)
+        ;
+
+        
+    
+    
+                marker_5154b37ac32c0e41d5a87868a22dd7aa.setIcon(icon_1f7d033b38abb35c6b585558727bcc4d);
+            
+    
+            var marker_b4df3da71d23f520e0e0a0f25d7a8bb9 = L.marker(
+                [48.1815583, 12.7812006],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_cd6adf13d4e382b0de7f1dcfc2a9c587 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5611996276075e540207f42e060e1452 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cb27b6f53c34236be1b2da7134f78208 = $(`<div id="html_cb27b6f53c34236be1b2da7134f78208" style="width: 100.0%; height: 100.0%;">NO, O3-Station: Mehring/Sportplatz</div>`)[0];
+                popup_5611996276075e540207f42e060e1452.setContent(html_cb27b6f53c34236be1b2da7134f78208);
+            
+        
+
+        marker_b4df3da71d23f520e0e0a0f25d7a8bb9.bindPopup(popup_5611996276075e540207f42e060e1452)
+        ;
+
+        
+    
+    
+                marker_b4df3da71d23f520e0e0a0f25d7a8bb9.setIcon(icon_cd6adf13d4e382b0de7f1dcfc2a9c587);
+            
+    
+            var marker_4f26c5001af67638e3784648cb04c943 = L.marker(
+                [48.1900336, 11.4681053],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_fa5f8a42394314c12289993f6f70f4c1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7761247de2a1693f76cedc4d8ad3f0f3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7329dc8e53d5d7f152809be125c980d5 = $(`<div id="html_7329dc8e53d5d7f152809be125c980d5" style="width: 100.0%; height: 100.0%;">NO, O3-Station: München/Allach</div>`)[0];
+                popup_7761247de2a1693f76cedc4d8ad3f0f3.setContent(html_7329dc8e53d5d7f152809be125c980d5);
+            
+        
+
+        marker_4f26c5001af67638e3784648cb04c943.bindPopup(popup_7761247de2a1693f76cedc4d8ad3f0f3)
+        ;
+
+        
+    
+    
+                marker_4f26c5001af67638e3784648cb04c943.setIcon(icon_fa5f8a42394314c12289993f6f70f4c1);
+            
+    
+            var marker_44571de5d2be72c9fe4424835379264c = L.marker(
+                [48.1692948, 11.649074],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_b04dc20ea8520082a9478573964f73ed = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_005e7a716c537c9e0e694cf534d3b3ea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_47b231dad47834327408622f73e1d204 = $(`<div id="html_47b231dad47834327408622f73e1d204" style="width: 100.0%; height: 100.0%;">NO, O3-Station: München/Johanneskirchen</div>`)[0];
+                popup_005e7a716c537c9e0e694cf534d3b3ea.setContent(html_47b231dad47834327408622f73e1d204);
+            
+        
+
+        marker_44571de5d2be72c9fe4424835379264c.bindPopup(popup_005e7a716c537c9e0e694cf534d3b3ea)
+        ;
+
+        
+    
+    
+                marker_44571de5d2be72c9fe4424835379264c.setIcon(icon_b04dc20ea8520082a9478573964f73ed);
+            
+    
+            var marker_e596a35b41420eb7d6e7335747046684 = L.marker(
+                [48.1511143, 11.5371453],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_10880111c81202045459bec28f532735 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8bab80af43a9d24df2f686cb81b8ac47 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_156366fe126477d70e8fd25909b6f37c = $(`<div id="html_156366fe126477d70e8fd25909b6f37c" style="width: 100.0%; height: 100.0%;">NO, O3-Station: München/Landshuter Allee</div>`)[0];
+                popup_8bab80af43a9d24df2f686cb81b8ac47.setContent(html_156366fe126477d70e8fd25909b6f37c);
+            
+        
+
+        marker_e596a35b41420eb7d6e7335747046684.bindPopup(popup_8bab80af43a9d24df2f686cb81b8ac47)
+        ;
+
+        
+    
+    
+                marker_e596a35b41420eb7d6e7335747046684.setIcon(icon_10880111c81202045459bec28f532735);
+            
+    
+            var marker_e5e0b99a3bf6ead17d05341b1bbe05ea = L.marker(
+                [48.1515295, 11.5488098],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_eb3b30d6707983b66482e2a26bb8e1a7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cd902c99119016e0e23028cbc395eda5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_22b2f6871146c81c42f7fb6b13890d17 = $(`<div id="html_22b2f6871146c81c42f7fb6b13890d17" style="width: 100.0%; height: 100.0%;">NO, O3-Station: München/Lothstraße</div>`)[0];
+                popup_cd902c99119016e0e23028cbc395eda5.setContent(html_22b2f6871146c81c42f7fb6b13890d17);
+            
+        
+
+        marker_e5e0b99a3bf6ead17d05341b1bbe05ea.bindPopup(popup_cd902c99119016e0e23028cbc395eda5)
+        ;
+
+        
+    
+    
+                marker_e5e0b99a3bf6ead17d05341b1bbe05ea.setIcon(icon_eb3b30d6707983b66482e2a26bb8e1a7);
+            
+    
+            var marker_9f32cc498a8a9808dae761f7870f798f = L.marker(
+                [48.1394857, 11.565622],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_b68444f19f4551950bb2598c435439be = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2f5c3342a33b30026dc5df9d71441dc6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_78745f279afea54dbb8623e14b3cab3a = $(`<div id="html_78745f279afea54dbb8623e14b3cab3a" style="width: 100.0%; height: 100.0%;">NO, O3-Station: München/Stachus</div>`)[0];
+                popup_2f5c3342a33b30026dc5df9d71441dc6.setContent(html_78745f279afea54dbb8623e14b3cab3a);
+            
+        
+
+        marker_9f32cc498a8a9808dae761f7870f798f.bindPopup(popup_2f5c3342a33b30026dc5df9d71441dc6)
+        ;
+
+        
+    
+    
+                marker_9f32cc498a8a9808dae761f7870f798f.setIcon(icon_b68444f19f4551950bb2598c435439be);
+            
+    
+            var marker_6d9b44c9edad18f0dc9ba6b64c83150e = L.marker(
+                [50.3229383, 11.7191915],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_8ee0886e5de2c42577f6a21bacbf970d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d5814a5ecdaf2b2ef71020623efd8663 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_31d20c20473941ebe735b828b8200759 = $(`<div id="html_31d20c20473941ebe735b828b8200759" style="width: 100.0%; height: 100.0%;">O3-Station: Naila/Selbitzer Berg</div>`)[0];
+                popup_d5814a5ecdaf2b2ef71020623efd8663.setContent(html_31d20c20473941ebe735b828b8200759);
+            
+        
+
+        marker_6d9b44c9edad18f0dc9ba6b64c83150e.bindPopup(popup_d5814a5ecdaf2b2ef71020623efd8663)
+        ;
+
+        
+    
+    
+                marker_6d9b44c9edad18f0dc9ba6b64c83150e.setIcon(icon_8ee0886e5de2c42577f6a21bacbf970d);
+            
+    
+            var marker_2cb785f91be5d8a017a3f3c16ba71c14 = L.marker(
+                [48.3968618, 10.0079529],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_a51d53b243b8b61fa30179cb90b7f4ae = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_94fa5382057cdec29c01448e538054c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce746decc9d34f617da5281b8184baf7 = $(`<div id="html_ce746decc9d34f617da5281b8184baf7" style="width: 100.0%; height: 100.0%;">NO, O3-Station: Neu-Ulm/Gabelsbergerstraße</div>`)[0];
+                popup_94fa5382057cdec29c01448e538054c0.setContent(html_ce746decc9d34f617da5281b8184baf7);
+            
+        
+
+        marker_2cb785f91be5d8a017a3f3c16ba71c14.bindPopup(popup_94fa5382057cdec29c01448e538054c0)
+        ;
+
+        
+    
+    
+                marker_2cb785f91be5d8a017a3f3c16ba71c14.setIcon(icon_a51d53b243b8b61fa30179cb90b7f4ae);
+            
+    
+            var marker_8daa4df515614ece311eab61232e6c56 = L.marker(
+                [49.5786857, 10.6248324],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_172a37b5af985263235d468c659f93e4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3a35b22f1c978e45522ef6863e5ec683 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bf71336916450f3e90adf2a98bce353d = $(`<div id="html_bf71336916450f3e90adf2a98bce353d" style="width: 100.0%; height: 100.0%;">NO, O3-Station: Neustadt a.d.Aisch/An der Weißen Marter</div>`)[0];
+                popup_3a35b22f1c978e45522ef6863e5ec683.setContent(html_bf71336916450f3e90adf2a98bce353d);
+            
+        
+
+        marker_8daa4df515614ece311eab61232e6c56.bindPopup(popup_3a35b22f1c978e45522ef6863e5ec683)
+        ;
+
+        
+    
+    
+                marker_8daa4df515614ece311eab61232e6c56.setIcon(icon_172a37b5af985263235d468c659f93e4);
+            
+    
+            var marker_bc7ef21ce23212102f13ba399ed375da = L.marker(
+                [48.8544634, 11.771948],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_bcccc718fd445408930cc98b827dcc05 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_34904022fe1074f7b31b609392912567 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5ac327a6a5f3ddd63cd452e90eebf187 = $(`<div id="html_5ac327a6a5f3ddd63cd452e90eebf187" style="width: 100.0%; height: 100.0%;">NO, O3-Station: Neustadt a.d.Donau/Eining</div>`)[0];
+                popup_34904022fe1074f7b31b609392912567.setContent(html_5ac327a6a5f3ddd63cd452e90eebf187);
+            
+        
+
+        marker_bc7ef21ce23212102f13ba399ed375da.bindPopup(popup_34904022fe1074f7b31b609392912567)
+        ;
+
+        
+    
+    
+                marker_bc7ef21ce23212102f13ba399ed375da.setIcon(icon_bcccc718fd445408930cc98b827dcc05);
+            
+    
+            var marker_b508ef8e3fd902c79ee3fe5ef0ed472c = L.marker(
+                [49.4483959, 11.1393347],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_f84d9f24043a4a9943b4d24e711b2f4c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_22bc5fdd2755a637c387dfd919ac4b6f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_49e15c8e500bb6aa449fda6219010f18 = $(`<div id="html_49e15c8e500bb6aa449fda6219010f18" style="width: 100.0%; height: 100.0%;">NO-Station: Nürnberg/Bahnhof</div>`)[0];
+                popup_22bc5fdd2755a637c387dfd919ac4b6f.setContent(html_49e15c8e500bb6aa449fda6219010f18);
+            
+        
+
+        marker_b508ef8e3fd902c79ee3fe5ef0ed472c.bindPopup(popup_22bc5fdd2755a637c387dfd919ac4b6f)
+        ;
+
+        
+    
+    
+                marker_b508ef8e3fd902c79ee3fe5ef0ed472c.setIcon(icon_f84d9f24043a4a9943b4d24e711b2f4c);
+            
+    
+            var marker_fc1f0d2e016c1668ff6ffac1b6c593bc = L.marker(
+                [49.4616933, 11.0227221],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_8c1fa21dd39b533200752fe12c227d6d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f8b3c75ff29be8bacd27fb80374ed077 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7747bf7896ab1bd5a15d04fdc19b91bc = $(`<div id="html_7747bf7896ab1bd5a15d04fdc19b91bc" style="width: 100.0%; height: 100.0%;">NO, O3-Station: Nürnberg/Muggenhof</div>`)[0];
+                popup_f8b3c75ff29be8bacd27fb80374ed077.setContent(html_7747bf7896ab1bd5a15d04fdc19b91bc);
+            
+        
+
+        marker_fc1f0d2e016c1668ff6ffac1b6c593bc.bindPopup(popup_f8b3c75ff29be8bacd27fb80374ed077)
+        ;
+
+        
+    
+    
+                marker_fc1f0d2e016c1668ff6ffac1b6c593bc.setIcon(icon_8c1fa21dd39b533200752fe12c227d6d);
+            
+    
+            var marker_dc1650fbeb8aa92edd6771f87c9c40f6 = L.marker(
+                [49.4484349, 11.0364525],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_e4c2d7650ddbdeaeffbbc212975dda00 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5e601ab4e219ed575964b2e12f425c1b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4d872508621380fc87997b0c72f827a6 = $(`<div id="html_4d872508621380fc87997b0c72f827a6" style="width: 100.0%; height: 100.0%;">NO-Station: Nürnberg/Von-der-Tann-Straße</div>`)[0];
+                popup_5e601ab4e219ed575964b2e12f425c1b.setContent(html_4d872508621380fc87997b0c72f827a6);
+            
+        
+
+        marker_dc1650fbeb8aa92edd6771f87c9c40f6.bindPopup(popup_5e601ab4e219ed575964b2e12f425c1b)
+        ;
+
+        
+    
+    
+                marker_dc1650fbeb8aa92edd6771f87c9c40f6.setIcon(icon_e4c2d7650ddbdeaeffbbc212975dda00);
+            
+    
+            var marker_f3e06ba492541564ff61ca2297f05512 = L.marker(
+                [48.9523755, 10.5980142],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_d83e97da7984c9b5cd555eda550403f0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6859ddd5d6b15ab54970d96eab3d1ac4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ba4fb20728eb9dead3a4941f03cf433b = $(`<div id="html_ba4fb20728eb9dead3a4941f03cf433b" style="width: 100.0%; height: 100.0%;">NO, O3-Station: Oettingen/Goethestraße</div>`)[0];
+                popup_6859ddd5d6b15ab54970d96eab3d1ac4.setContent(html_ba4fb20728eb9dead3a4941f03cf433b);
+            
+        
+
+        marker_f3e06ba492541564ff61ca2297f05512.bindPopup(popup_6859ddd5d6b15ab54970d96eab3d1ac4)
+        ;
+
+        
+    
+    
+                marker_f3e06ba492541564ff61ca2297f05512.setIcon(icon_d83e97da7984c9b5cd555eda550403f0);
+            
+    
+            var marker_0a91ed27b90e60b0c09a794e38548c34 = L.marker(
+                [48.5776575, 13.4597505],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_225d0a4ae5071c199655a750d47f6faf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0c24aaee704ef6af3d1d626a634e1f8c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_adbd29d4eddee00508b3a8d4775598af = $(`<div id="html_adbd29d4eddee00508b3a8d4775598af" style="width: 100.0%; height: 100.0%;">NO-Station: Passau/Angerstraße</div>`)[0];
+                popup_0c24aaee704ef6af3d1d626a634e1f8c.setContent(html_adbd29d4eddee00508b3a8d4775598af);
+            
+        
+
+        marker_0a91ed27b90e60b0c09a794e38548c34.bindPopup(popup_0c24aaee704ef6af3d1d626a634e1f8c)
+        ;
+
+        
+    
+    
+                marker_0a91ed27b90e60b0c09a794e38548c34.setIcon(icon_225d0a4ae5071c199655a750d47f6faf);
+            
+    
+            var marker_7ff7067ff0af005688d99b3201a71662 = L.marker(
+                [48.5718029, 13.4210388],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_6563b4df981f1b927ccbc47ee161d187 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1ed942ad844a2468be5d01a7266660a0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_17bf92fad54fe1bdbdd5c6f3d35f338f = $(`<div id="html_17bf92fad54fe1bdbdd5c6f3d35f338f" style="width: 100.0%; height: 100.0%;">NO-Station: Passau/Stelzhamerstraße</div>`)[0];
+                popup_1ed942ad844a2468be5d01a7266660a0.setContent(html_17bf92fad54fe1bdbdd5c6f3d35f338f);
+            
+        
+
+        marker_7ff7067ff0af005688d99b3201a71662.bindPopup(popup_1ed942ad844a2468be5d01a7266660a0)
+        ;
+
+        
+    
+    
+                marker_7ff7067ff0af005688d99b3201a71662.setIcon(icon_6563b4df981f1b927ccbc47ee161d187);
+            
+    
+            var marker_c12eb901d214c6305f55ec4692d470e1 = L.marker(
+                [48.9788311, 13.13377],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_38f140c588deeae836d7c537173d72c3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_794651dfbb493b972ddedd4a9bfeb9fb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c93b7facd49c07066519c679cedc3e0a = $(`<div id="html_c93b7facd49c07066519c679cedc3e0a" style="width: 100.0%; height: 100.0%;">O3-Station: Regen/Bodenmaiser Straße</div>`)[0];
+                popup_794651dfbb493b972ddedd4a9bfeb9fb.setContent(html_c93b7facd49c07066519c679cedc3e0a);
+            
+        
+
+        marker_c12eb901d214c6305f55ec4692d470e1.bindPopup(popup_794651dfbb493b972ddedd4a9bfeb9fb)
+        ;
+
+        
+    
+    
+                marker_c12eb901d214c6305f55ec4692d470e1.setIcon(icon_38f140c588deeae836d7c537173d72c3);
+            
+    
+            var marker_5c1831275338c6fce7f37d0be1864988 = L.marker(
+                [49.0203667, 12.0948545],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_b804c29754af25e7ff7844ab649a7299 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_22dd78200f20302652b686c86411f442 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d7207a339ebf435724e21a143dff6840 = $(`<div id="html_d7207a339ebf435724e21a143dff6840" style="width: 100.0%; height: 100.0%;">NO-Station: Regensburg/Rathaus</div>`)[0];
+                popup_22dd78200f20302652b686c86411f442.setContent(html_d7207a339ebf435724e21a143dff6840);
+            
+        
+
+        marker_5c1831275338c6fce7f37d0be1864988.bindPopup(popup_22dd78200f20302652b686c86411f442)
+        ;
+
+        
+    
+    
+                marker_5c1831275338c6fce7f37d0be1864988.setIcon(icon_b804c29754af25e7ff7844ab649a7299);
+            
+    
+            var marker_9085085b9f6414a08e68ea4e08d73421 = L.marker(
+                [48.9048753, 11.9402519],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_0ef33c04dbe9cdc5b8375799e81b7553 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1ffe4d731722ee634863ffc1d5bfc15e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_22ad0b3647ac0b7d680d635aaab4949a = $(`<div id="html_22ad0b3647ac0b7d680d635aaab4949a" style="width: 100.0%; height: 100.0%;">NO, O3-Station: Saal a.d.Donau/Auf dem Gries</div>`)[0];
+                popup_1ffe4d731722ee634863ffc1d5bfc15e.setContent(html_22ad0b3647ac0b7d680d635aaab4949a);
+            
+        
+
+        marker_9085085b9f6414a08e68ea4e08d73421.bindPopup(popup_1ffe4d731722ee634863ffc1d5bfc15e)
+        ;
+
+        
+    
+    
+                marker_9085085b9f6414a08e68ea4e08d73421.setIcon(icon_0ef33c04dbe9cdc5b8375799e81b7553);
+            
+    
+            var marker_12eb21724063b13c1381ec4294a2b9f1 = L.marker(
+                [48.9025883, 11.9394926],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_f245562bb0049d9b1473da6ed610d475 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0b3030a31a987dfeb562668d969d9e90 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b5f3c988b91c365f0e9040effa92af58 = $(`<div id="html_b5f3c988b91c365f0e9040effa92af58" style="width: 100.0%; height: 100.0%;">NO, O3-Station: Saal a.d.Donau/Regensburger Straße</div>`)[0];
+                popup_0b3030a31a987dfeb562668d969d9e90.setContent(html_b5f3c988b91c365f0e9040effa92af58);
+            
+        
+
+        marker_12eb21724063b13c1381ec4294a2b9f1.bindPopup(popup_0b3030a31a987dfeb562668d969d9e90)
+        ;
+
+        
+    
+    
+                marker_12eb21724063b13c1381ec4294a2b9f1.setIcon(icon_f245562bb0049d9b1473da6ed610d475);
+            
+    
+            var marker_d5eb4791aed106ea260c06827a57a1b9 = L.marker(
+                [49.3235026, 11.0307463],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_694221bd76d68823f825619da4dd0be5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dae0ad6f60aa0b2780423e5bb66cb2db = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1cb9d4283a0e9251c278d4e1e5893fc0 = $(`<div id="html_1cb9d4283a0e9251c278d4e1e5893fc0" style="width: 100.0%; height: 100.0%;">NO, O3-Station: Schwabach/Angerstraße</div>`)[0];
+                popup_dae0ad6f60aa0b2780423e5bb66cb2db.setContent(html_1cb9d4283a0e9251c278d4e1e5893fc0);
+            
+        
+
+        marker_d5eb4791aed106ea260c06827a57a1b9.bindPopup(popup_dae0ad6f60aa0b2780423e5bb66cb2db)
+        ;
+
+        
+    
+    
+                marker_d5eb4791aed106ea260c06827a57a1b9.setIcon(icon_694221bd76d68823f825619da4dd0be5);
+            
+    
+            var marker_a8cde194e412eb7cbadc43521d91649a = L.marker(
+                [49.3169249, 12.1475784],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_0ceb4f1950b62d6a9723e98d38208d59 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ea04ac3d954a51f726a04abc49b1072f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eee9d06bbb32916710f8bf11f6693a7a = $(`<div id="html_eee9d06bbb32916710f8bf11f6693a7a" style="width: 100.0%; height: 100.0%;">NO, O3-Station: Schwandorf/Wackersdorfer Straße</div>`)[0];
+                popup_ea04ac3d954a51f726a04abc49b1072f.setContent(html_eee9d06bbb32916710f8bf11f6693a7a);
+            
+        
+
+        marker_a8cde194e412eb7cbadc43521d91649a.bindPopup(popup_ea04ac3d954a51f726a04abc49b1072f)
+        ;
+
+        
+    
+    
+                marker_a8cde194e412eb7cbadc43521d91649a.setIcon(icon_0ceb4f1950b62d6a9723e98d38208d59);
+            
+    
+            var marker_a062c229a68bd0ecdfb67ad2d7e9c4de = L.marker(
+                [50.0506058, 10.2310509],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_3bfedecbc91b45205adaf02e41aac072 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ba54ba79cfb9551e57f8bb071bd8830b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_395357c8600ecc88b800de3b14457d0f = $(`<div id="html_395357c8600ecc88b800de3b14457d0f" style="width: 100.0%; height: 100.0%;">NO, O3-Station: Schweinfurt/Obertor</div>`)[0];
+                popup_ba54ba79cfb9551e57f8bb071bd8830b.setContent(html_395357c8600ecc88b800de3b14457d0f);
+            
+        
+
+        marker_a062c229a68bd0ecdfb67ad2d7e9c4de.bindPopup(popup_ba54ba79cfb9551e57f8bb071bd8830b)
+        ;
+
+        
+    
+    
+                marker_a062c229a68bd0ecdfb67ad2d7e9c4de.setIcon(icon_3bfedecbc91b45205adaf02e41aac072);
+            
+    
+            var marker_0a504ff8fd3d3aa35358db65caa69af2 = L.marker(
+                [49.4884186, 11.7871807],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_20465062b53c8ea2455e6b6432fc3845 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e8c1bd6ce7fc77944458bec425a08505 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fe43e9ce2a27092cd5c0b3003edfdc14 = $(`<div id="html_fe43e9ce2a27092cd5c0b3003edfdc14" style="width: 100.0%; height: 100.0%;">O3-Station: Sulzbach-Rosenberg/Lohe</div>`)[0];
+                popup_e8c1bd6ce7fc77944458bec425a08505.setContent(html_fe43e9ce2a27092cd5c0b3003edfdc14);
+            
+        
+
+        marker_0a504ff8fd3d3aa35358db65caa69af2.bindPopup(popup_e8c1bd6ce7fc77944458bec425a08505)
+        ;
+
+        
+    
+    
+                marker_0a504ff8fd3d3aa35358db65caa69af2.setIcon(icon_20465062b53c8ea2455e6b6432fc3845);
+            
+    
+            var marker_4fb979fc41f091aa133b4af666e81c96 = L.marker(
+                [49.4387336, 12.5521509],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_412d3618cb68b92458ca81b92f1e2478 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2459bd81177c9993c6a8bc5720ccb2dc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5dfcd659b4835bed4a2ddda1a7b5ef82 = $(`<div id="html_5dfcd659b4835bed4a2ddda1a7b5ef82" style="width: 100.0%; height: 100.0%;">NO, O3-Station: Tiefenbach/Altenschneeberg</div>`)[0];
+                popup_2459bd81177c9993c6a8bc5720ccb2dc.setContent(html_5dfcd659b4835bed4a2ddda1a7b5ef82);
+            
+        
+
+        marker_4fb979fc41f091aa133b4af666e81c96.bindPopup(popup_2459bd81177c9993c6a8bc5720ccb2dc)
+        ;
+
+        
+    
+    
+                marker_4fb979fc41f091aa133b4af666e81c96.setIcon(icon_412d3618cb68b92458ca81b92f1e2478);
+            
+    
+            var marker_a02d2f37fe3192e549632bd05850638a = L.marker(
+                [48.0202038, 12.5411346],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_9a63c855e8f6741fbc4db7fe54deefc3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a45f78fa08292cceb89c0bcdcbfddc87 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e57914f2b8cbedff3d73be34e23386c4 = $(`<div id="html_e57914f2b8cbedff3d73be34e23386c4" style="width: 100.0%; height: 100.0%;">NO, O3-Station: Trostberg/Schwimmbadstraße</div>`)[0];
+                popup_a45f78fa08292cceb89c0bcdcbfddc87.setContent(html_e57914f2b8cbedff3d73be34e23386c4);
+            
+        
+
+        marker_a02d2f37fe3192e549632bd05850638a.bindPopup(popup_a45f78fa08292cceb89c0bcdcbfddc87)
+        ;
+
+        
+    
+    
+                marker_a02d2f37fe3192e549632bd05850638a.setIcon(icon_9a63c855e8f6741fbc4db7fe54deefc3);
+            
+    
+            var marker_54ecfede95222ae39039a935b89faa30 = L.marker(
+                [48.7640676, 11.6325761],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_2244557f058ebc308839f38b7c5ad276 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7d1fb55f688baa17f16c7ba77e49df29 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c22f8f96462ed67bb29177f8e72c95a1 = $(`<div id="html_c22f8f96462ed67bb29177f8e72c95a1" style="width: 100.0%; height: 100.0%;">O3-Station: Vohburg a.d.Donau/Alter Wöhrer Weg</div>`)[0];
+                popup_7d1fb55f688baa17f16c7ba77e49df29.setContent(html_c22f8f96462ed67bb29177f8e72c95a1);
+            
+        
+
+        marker_54ecfede95222ae39039a935b89faa30.bindPopup(popup_7d1fb55f688baa17f16c7ba77e49df29)
+        ;
+
+        
+    
+    
+                marker_54ecfede95222ae39039a935b89faa30.setIcon(icon_2244557f058ebc308839f38b7c5ad276);
+            
+    
+            var marker_876033e7c8e20c40625a2bd79b67c174 = L.marker(
+                [49.6796064, 12.1608439],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_3a7d81d8d49f0d48e1efd9df14f5f866 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5c6fcdf05c86818455f9dce28bd0d963 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_23f0a115447da3e2a5afd2a4bc8bb605 = $(`<div id="html_23f0a115447da3e2a5afd2a4bc8bb605" style="width: 100.0%; height: 100.0%;">NO, O3-Station: Weiden i.d.OPf./Nikolaistraße</div>`)[0];
+                popup_5c6fcdf05c86818455f9dce28bd0d963.setContent(html_23f0a115447da3e2a5afd2a4bc8bb605);
+            
+        
+
+        marker_876033e7c8e20c40625a2bd79b67c174.bindPopup(popup_5c6fcdf05c86818455f9dce28bd0d963)
+        ;
+
+        
+    
+    
+                marker_876033e7c8e20c40625a2bd79b67c174.setIcon(icon_3a7d81d8d49f0d48e1efd9df14f5f866);
+            
+    
+            var marker_108a2abb542361a9c6797886e1e5c0dc = L.marker(
+                [49.8045664, 9.956954],
+                {
+}
+            ).addTo(map_3e57cf1ef36ec0adaaf26a8a2f56e0fa);
+        
+    
+            var icon_c7d6d036fd48053c88c5aaef241a0e57 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_67662524b8c4c32a72f60ae2ee7b7770 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b1dfc7f8cb93f67655941e28e426e204 = $(`<div id="html_b1dfc7f8cb93f67655941e28e426e204" style="width: 100.0%; height: 100.0%;">NO, O3-Station: Würzburg/Kopfklinik</div>`)[0];
+                popup_67662524b8c4c32a72f60ae2ee7b7770.setContent(html_b1dfc7f8cb93f67655941e28e426e204);
+            
+        
+
+        marker_108a2abb542361a9c6797886e1e5c0dc.bindPopup(popup_67662524b8c4c32a72f60ae2ee7b7770)
+        ;
+
+        
+    
+    
+                marker_108a2abb542361a9c6797886e1e5c0dc.setIcon(icon_c7d6d036fd48053c88c5aaef241a0e57);
+            
+</script>
+</html>

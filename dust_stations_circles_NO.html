@@ -1,0 +1,1275 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7ae8f10b6562d43e157277e8b1436e68 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7ae8f10b6562d43e157277e8b1436e68" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7ae8f10b6562d43e157277e8b1436e68 = L.map(
+                "map_7ae8f10b6562d43e157277e8b1436e68",
+                {
+                    center: [48.854446305882355, 11.30255154509804],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+  "figsize": [10, 10],
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b108567fe46d3dd3442b05368c7c0597 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_b108567fe46d3dd3442b05368c7c0597.addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+            var circle_marker_6bf976031a597198dda0eb8b8712eb54 = L.circleMarker(
+                [47.9707407, 11.2194752],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.0477238767665478, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_bacd39c9a6c2dd0233f192e94695fb3b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ed127790923c23ecf2ba2fd85e5e3481 = $(`<div id="html_ed127790923c23ecf2ba2fd85e5e3481" style="width: 100.0%; height: 100.0%;">NO-Station: Andechs/Rothenfeld. Durchschnittswert: 1.05</div>`)[0];
+                popup_bacd39c9a6c2dd0233f192e94695fb3b.setContent(html_ed127790923c23ecf2ba2fd85e5e3481);
+            
+        
+
+        circle_marker_6bf976031a597198dda0eb8b8712eb54.bindPopup(popup_bacd39c9a6c2dd0233f192e94695fb3b)
+        ;
+
+        
+    
+    
+            var circle_marker_2ab8d26cdb416c18952e6b765b3d639b = L.circleMarker(
+                [49.3050055, 10.5666967],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.309018945831575, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_e963659dae10f73066139c7b9176672b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_82912d27b158c135a3fd0ab41600e9be = $(`<div id="html_82912d27b158c135a3fd0ab41600e9be" style="width: 100.0%; height: 100.0%;">NO-Station: Ansbach/Residenzstraße. Durchschnittswert: 20.31</div>`)[0];
+                popup_e963659dae10f73066139c7b9176672b.setContent(html_82912d27b158c135a3fd0ab41600e9be);
+            
+        
+
+        circle_marker_2ab8d26cdb416c18952e6b765b3d639b.bindPopup(popup_e963659dae10f73066139c7b9176672b)
+        ;
+
+        
+    
+    
+            var circle_marker_052cc8c1375532cf07d1dfd0a410a006 = L.circleMarker(
+                [49.9922833, 9.1169701],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.919962131149411, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_6b905269e83f2f60a8d02b39ce9fa41d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_095f1edf94b2f0ea0974eb8f51493947 = $(`<div id="html_095f1edf94b2f0ea0974eb8f51493947" style="width: 100.0%; height: 100.0%;">NO-Station: Aschaffenburg/Bussardweg. Durchschnittswert: 8.92</div>`)[0];
+                popup_6b905269e83f2f60a8d02b39ce9fa41d.setContent(html_095f1edf94b2f0ea0974eb8f51493947);
+            
+        
+
+        circle_marker_052cc8c1375532cf07d1dfd0a410a006.bindPopup(popup_6b905269e83f2f60a8d02b39ce9fa41d)
+        ;
+
+        
+    
+    
+            var circle_marker_9fd256501b58393eb897922237fc34f1 = L.circleMarker(
+                [48.3770721, 10.8894922],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.17198389433222, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_5c400225d17e82d05595ff3ff23a423f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_51dbc65a2d0562cf214b093ad23a936b = $(`<div id="html_51dbc65a2d0562cf214b093ad23a936b" style="width: 100.0%; height: 100.0%;">NO-Station: Augsburg/Bourges-Platz. Durchschnittswert: 8.17</div>`)[0];
+                popup_5c400225d17e82d05595ff3ff23a423f.setContent(html_51dbc65a2d0562cf214b093ad23a936b);
+            
+        
+
+        circle_marker_9fd256501b58393eb897922237fc34f1.bindPopup(popup_5c400225d17e82d05595ff3ff23a423f)
+        ;
+
+        
+    
+    
+            var circle_marker_017c58d16efa98d12297981e8e7400df = L.circleMarker(
+                [48.3702166, 10.8965203],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26.420093303372838, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_7be984eefb634e79fe62581e83f86128 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6b5e5c32860caa388f0b08f88b482eee = $(`<div id="html_6b5e5c32860caa388f0b08f88b482eee" style="width: 100.0%; height: 100.0%;">NO-Station: Augsburg/Karlstraße. Durchschnittswert: 26.42</div>`)[0];
+                popup_7be984eefb634e79fe62581e83f86128.setContent(html_6b5e5c32860caa388f0b08f88b482eee);
+            
+        
+
+        circle_marker_017c58d16efa98d12297981e8e7400df.bindPopup(popup_7be984eefb634e79fe62581e83f86128)
+        ;
+
+        
+    
+    
+            var circle_marker_e2c70c62de40c25c11d1ee49e1d6a083 = L.circleMarker(
+                [48.3654894, 10.8944651],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.854695395284644, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_ae0cb25a24328854d4db0dd618efbdab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_219e0ade9ee6e17829d1c139567e76f4 = $(`<div id="html_219e0ade9ee6e17829d1c139567e76f4" style="width: 100.0%; height: 100.0%;">NO-Station: Augsburg/Königsplatz. Durchschnittswert: 10.85</div>`)[0];
+                popup_ae0cb25a24328854d4db0dd618efbdab.setContent(html_219e0ade9ee6e17829d1c139567e76f4);
+            
+        
+
+        circle_marker_e2c70c62de40c25c11d1ee49e1d6a083.bindPopup(popup_ae0cb25a24328854d4db0dd618efbdab)
+        ;
+
+        
+    
+    
+            var circle_marker_aff6b9d35e22360db452c2ae63ed088a = L.circleMarker(
+                [48.3265312, 10.8980324],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.339804496355693, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_7f1660d4e431f1f938d08b2cacf23daf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_618570faba69c3720e71056ea7bdace5 = $(`<div id="html_618570faba69c3720e71056ea7bdace5" style="width: 100.0%; height: 100.0%;">NO-Station: Augsburg/LfU. Durchschnittswert: 4.34</div>`)[0];
+                popup_7f1660d4e431f1f938d08b2cacf23daf.setContent(html_618570faba69c3720e71056ea7bdace5);
+            
+        
+
+        circle_marker_aff6b9d35e22360db452c2ae63ed088a.bindPopup(popup_7f1660d4e431f1f938d08b2cacf23daf)
+        ;
+
+        
+    
+    
+            var circle_marker_4f5529da7bc64ff594aa696afb74674d = L.circleMarker(
+                [47.5163566, 10.4063763],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.9850919916506027, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_1571b57674acb0a505ac939d2b1de259 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_27b9101f72af0d4369ec8096a70222f8 = $(`<div id="html_27b9101f72af0d4369ec8096a70222f8" style="width: 100.0%; height: 100.0%;">NO-Station: Bad Hindelang/Oberjoch. Durchschnittswert: 3.99</div>`)[0];
+                popup_1571b57674acb0a505ac939d2b1de259.setContent(html_27b9101f72af0d4369ec8096a70222f8);
+            
+        
+
+        circle_marker_4f5529da7bc64ff594aa696afb74674d.bindPopup(popup_1571b57674acb0a505ac939d2b1de259)
+        ;
+
+        
+    
+    
+            var circle_marker_6ed05b07414a686f66dbb410cf4fb32d = L.circleMarker(
+                [47.5445057, 10.4252724],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.032929931220129806, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_3f5b6e7505f04277f2677c1e1af5ba7d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ea6018ffd1f960f5b68de6249f44656d = $(`<div id="html_ea6018ffd1f960f5b68de6249f44656d" style="width: 100.0%; height: 100.0%;">NO-Station: Bad Hindelang/Unterjoch. Durchschnittswert: 0.03</div>`)[0];
+                popup_3f5b6e7505f04277f2677c1e1af5ba7d.setContent(html_ea6018ffd1f960f5b68de6249f44656d);
+            
+        
+
+        circle_marker_6ed05b07414a686f66dbb410cf4fb32d.bindPopup(popup_3f5b6e7505f04277f2677c1e1af5ba7d)
+        ;
+
+        
+    
+    
+            var circle_marker_298d3cd564a2f424804a495ca295e2d9 = L.circleMarker(
+                [47.7337735, 12.8902934],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.39812480751902, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_ec262c7be25c7b821819dee143381dbd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d7ab6def8c76d590443b8569dbacebd5 = $(`<div id="html_d7ab6def8c76d590443b8569dbacebd5" style="width: 100.0%; height: 100.0%;">NO-Station: Bad Reichenhall/Kirchholzstraße. Durchschnittswert: 1.4</div>`)[0];
+                popup_ec262c7be25c7b821819dee143381dbd.setContent(html_d7ab6def8c76d590443b8569dbacebd5);
+            
+        
+
+        circle_marker_298d3cd564a2f424804a495ca295e2d9.bindPopup(popup_ec262c7be25c7b821819dee143381dbd)
+        ;
+
+        
+    
+    
+            var circle_marker_78215acb7f5666a3c66fbf7fb15c2298 = L.circleMarker(
+                [49.8977634, 10.8872976],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.735716485496914, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_1227e701cb21c20073c615dc24d33666 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_294a33ea80ddb4d711d3ba0e5659f898 = $(`<div id="html_294a33ea80ddb4d711d3ba0e5659f898" style="width: 100.0%; height: 100.0%;">NO-Station: Bamberg/Löwenbrücke. Durchschnittswert: 8.74</div>`)[0];
+                popup_1227e701cb21c20073c615dc24d33666.setContent(html_294a33ea80ddb4d711d3ba0e5659f898);
+            
+        
+
+        circle_marker_78215acb7f5666a3c66fbf7fb15c2298.bindPopup(popup_1227e701cb21c20073c615dc24d33666)
+        ;
+
+        
+    
+    
+            var circle_marker_ea8763e451a77a37424739a323107f8d = L.circleMarker(
+                [49.9470876, 11.5777172],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.135711922984795, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_cdf1577d6416e00e8f41577982af620a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_50289c3d1bbbd4139d125763ce96599f = $(`<div id="html_50289c3d1bbbd4139d125763ce96599f" style="width: 100.0%; height: 100.0%;">NO-Station: Bayreuth/Hohenzollernring. Durchschnittswert: 15.14</div>`)[0];
+                popup_cdf1577d6416e00e8f41577982af620a.setContent(html_50289c3d1bbbd4139d125763ce96599f);
+            
+        
+
+        circle_marker_ea8763e451a77a37424739a323107f8d.bindPopup(popup_cdf1577d6416e00e8f41577982af620a)
+        ;
+
+        
+    
+    
+            var circle_marker_47e7b1040966fca4d3b7839e9ece322c = L.circleMarker(
+                [49.4437042, 10.3243799],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.1506313376144905, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_cc41a2a0ad28f74fd216a42c9342aa2a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9811f12125226bc31cfc7b2874c6c51e = $(`<div id="html_9811f12125226bc31cfc7b2874c6c51e" style="width: 100.0%; height: 100.0%;">NO-Station: Burgbernheim/Grüne Au. Durchschnittswert: 1.15</div>`)[0];
+                popup_cc41a2a0ad28f74fd216a42c9342aa2a.setContent(html_9811f12125226bc31cfc7b2874c6c51e);
+            
+        
+
+        circle_marker_47e7b1040966fca4d3b7839e9ece322c.bindPopup(popup_cc41a2a0ad28f74fd216a42c9342aa2a)
+        ;
+
+        
+    
+    
+            var circle_marker_b7a31db0a27a5f1d682419cebb8a45e0 = L.circleMarker(
+                [48.1668857, 12.8325302],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.374125993772171, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_670965bab05118e4397b5cc1898021a5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5b7cef5a8214f18c999329abd1a68b1c = $(`<div id="html_5b7cef5a8214f18c999329abd1a68b1c" style="width: 100.0%; height: 100.0%;">NO-Station: Burghausen/Marktler Straße. Durchschnittswert: 8.37</div>`)[0];
+                popup_670965bab05118e4397b5cc1898021a5.setContent(html_5b7cef5a8214f18c999329abd1a68b1c);
+            
+        
+
+        circle_marker_b7a31db0a27a5f1d682419cebb8a45e0.bindPopup(popup_670965bab05118e4397b5cc1898021a5)
+        ;
+
+        
+    
+    
+            var circle_marker_1c9fe8d2d346b9ec4ba53dac00f72daf = L.circleMarker(
+                [50.2615098, 10.9586319],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_a372477c5a38aeaf38cf2294b8ec2b78 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d1142917e6de9d54614bb43950fc29a8 = $(`<div id="html_d1142917e6de9d54614bb43950fc29a8" style="width: 100.0%; height: 100.0%;">NO-Station: Coburg/Lossaustraße. Durchschnittswert: 0.0</div>`)[0];
+                popup_a372477c5a38aeaf38cf2294b8ec2b78.setContent(html_d1142917e6de9d54614bb43950fc29a8);
+            
+        
+
+        circle_marker_1c9fe8d2d346b9ec4ba53dac00f72daf.bindPopup(popup_a372477c5a38aeaf38cf2294b8ec2b78)
+        ;
+
+        
+    
+    
+            var circle_marker_48ec498c3f5a98fee222b7d536a078dd = L.circleMarker(
+                [49.606171, 10.9648713],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.182523297327508, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_29d0b446c8b79b0032b42cb0d0685136 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_610e65da57910448201a89cebaf24c36 = $(`<div id="html_610e65da57910448201a89cebaf24c36" style="width: 100.0%; height: 100.0%;">NO-Station: Erlangen/Kraepelinstraße. Durchschnittswert: 4.18</div>`)[0];
+                popup_29d0b446c8b79b0032b42cb0d0685136.setContent(html_610e65da57910448201a89cebaf24c36);
+            
+        
+
+        circle_marker_48ec498c3f5a98fee222b7d536a078dd.bindPopup(popup_29d0b446c8b79b0032b42cb0d0685136)
+        ;
+
+        
+    
+    
+            var circle_marker_e20936d4aa200425fbb1c5ba35a48b78 = L.circleMarker(
+                [47.4769208, 11.0570112],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.742503222274184, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_fe58c1813e3b8e2254953b0c802b0684 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dd4db5b70a0bfc25310fad64c958fb69 = $(`<div id="html_dd4db5b70a0bfc25310fad64c958fb69" style="width: 100.0%; height: 100.0%;">NO-Station: Garmisch-Partenkirchen/Wasserwerk. Durchschnittswert: 1.74</div>`)[0];
+                popup_fe58c1813e3b8e2254953b0c802b0684.setContent(html_dd4db5b70a0bfc25310fad64c958fb69);
+            
+        
+
+        circle_marker_e20936d4aa200425fbb1c5ba35a48b78.bindPopup(popup_fe58c1813e3b8e2254953b0c802b0684)
+        ;
+
+        
+    
+    
+            var circle_marker_3ae136ee3c101569ed94916a30e5baa5 = L.circleMarker(
+                [50.3202694, 11.899126],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.226813883724379, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_b129467fdc9229da52e1a30341449ff5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ca037666d24cf27102d795195877ec46 = $(`<div id="html_ca037666d24cf27102d795195877ec46" style="width: 100.0%; height: 100.0%;">NO-Station: Hof/LfU. Durchschnittswert: 5.23</div>`)[0];
+                popup_b129467fdc9229da52e1a30341449ff5.setContent(html_ca037666d24cf27102d795195877ec46);
+            
+        
+
+        circle_marker_3ae136ee3c101569ed94916a30e5baa5.bindPopup(popup_b129467fdc9229da52e1a30341449ff5)
+        ;
+
+        
+    
+    
+            var circle_marker_884afaeeccfb1f7188e5dc110f649058 = L.circleMarker(
+                [48.7357621, 11.434321],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.9364784250208165, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_ff562ddf9a71690a46555fe7af045ad6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eda3475ed0342c5ddcdae0297ef3ffb1 = $(`<div id="html_eda3475ed0342c5ddcdae0297ef3ffb1" style="width: 100.0%; height: 100.0%;">NO-Station: Ingolstadt/Münchener Straße. Durchschnittswert: 3.94</div>`)[0];
+                popup_ff562ddf9a71690a46555fe7af045ad6.setContent(html_eda3475ed0342c5ddcdae0297ef3ffb1);
+            
+        
+
+        circle_marker_884afaeeccfb1f7188e5dc110f649058.bindPopup(popup_ff562ddf9a71690a46555fe7af045ad6)
+        ;
+
+        
+    
+    
+            var circle_marker_4b5c43f51f0408ccc7ca69f7efcab1e7 = L.circleMarker(
+                [48.770516, 11.4301097],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.120655632991525, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_b481a2ef0e3e234d6a33e27cb4484cbd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e90671134bbf2d5d707cd52805a1b06a = $(`<div id="html_e90671134bbf2d5d707cd52805a1b06a" style="width: 100.0%; height: 100.0%;">NO-Station: Ingolstadt/Rechbergstraße. Durchschnittswert: 8.12</div>`)[0];
+                popup_b481a2ef0e3e234d6a33e27cb4484cbd.setContent(html_e90671134bbf2d5d707cd52805a1b06a);
+            
+        
+
+        circle_marker_4b5c43f51f0408ccc7ca69f7efcab1e7.bindPopup(popup_b481a2ef0e3e234d6a33e27cb4484cbd)
+        ;
+
+        
+    
+    
+            var circle_marker_b4af4e186317f2073bc4c18dfac12b03 = L.circleMarker(
+                [48.9121734, 11.8723946],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.197317242873927, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_5f6a71b4a23b8640ebeca390a95f08e2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_14abfaa04ffce28835c6a3eefa319455 = $(`<div id="html_14abfaa04ffce28835c6a3eefa319455" style="width: 100.0%; height: 100.0%;">NO-Station: Kelheim/Regensburger Straße. Durchschnittswert: 9.2</div>`)[0];
+                popup_5f6a71b4a23b8640ebeca390a95f08e2.setContent(html_14abfaa04ffce28835c6a3eefa319455);
+            
+        
+
+        circle_marker_b4af4e186317f2073bc4c18dfac12b03.bindPopup(popup_5f6a71b4a23b8640ebeca390a95f08e2)
+        ;
+
+        
+    
+    
+            var circle_marker_b280e1a1ce258595830e553f72625c59 = L.circleMarker(
+                [47.7278341, 10.3058514],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.71737518677784, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_ddc2f8ef3fb286ac8b555d11b124732d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1a8b55d74f2bb6152953cb4aa0efcd48 = $(`<div id="html_1a8b55d74f2bb6152953cb4aa0efcd48" style="width: 100.0%; height: 100.0%;">NO-Station: Kempten (Allgäu)/Westendstraße. Durchschnittswert: 6.72</div>`)[0];
+                popup_ddc2f8ef3fb286ac8b555d11b124732d.setContent(html_1a8b55d74f2bb6152953cb4aa0efcd48);
+            
+        
+
+        circle_marker_b280e1a1ce258595830e553f72625c59.bindPopup(popup_ddc2f8ef3fb286ac8b555d11b124732d)
+        ;
+
+        
+    
+    
+            var circle_marker_911d2b68dbe7f4d92e05619878a82dd2 = L.circleMarker(
+                [49.8677804, 9.1739054],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.5327075087543203, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_9519277bd1f160470d8531dc834c567d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab68d9dce7dc62dbe94c6d7c2edbda9f = $(`<div id="html_ab68d9dce7dc62dbe94c6d7c2edbda9f" style="width: 100.0%; height: 100.0%;">NO-Station: Kleinwallstadt/Hofstetter Straße. Durchschnittswert: 3.53</div>`)[0];
+                popup_9519277bd1f160470d8531dc834c567d.setContent(html_ab68d9dce7dc62dbe94c6d7c2edbda9f);
+            
+        
+
+        circle_marker_911d2b68dbe7f4d92e05619878a82dd2.bindPopup(popup_9519277bd1f160470d8531dc834c567d)
+        ;
+
+        
+    
+    
+            var circle_marker_555b68e1cfcf83acfe7fa3afec625fde = L.circleMarker(
+                [50.1031371, 11.4417446],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.438582883735785, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_2bddb0a5023d175942f867af089f915e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_62e29d23df297e88f0cafc620ae880cf = $(`<div id="html_62e29d23df297e88f0cafc620ae880cf" style="width: 100.0%; height: 100.0%;">NO-Station: Kulmbach/Konrad-Adenauer-Straße. Durchschnittswert: 7.44</div>`)[0];
+                popup_2bddb0a5023d175942f867af089f915e.setContent(html_62e29d23df297e88f0cafc620ae880cf);
+            
+        
+
+        circle_marker_555b68e1cfcf83acfe7fa3afec625fde.bindPopup(popup_2bddb0a5023d175942f867af089f915e)
+        ;
+
+        
+    
+    
+            var circle_marker_cea991a6ca19bc0147ea10c0187fb560 = L.circleMarker(
+                [48.5375029, 12.1605348],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.686247447844783, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_58fd67d6e9e7487eb45c3b5e73897905 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0728deefa405c6e9d12f844f274f0755 = $(`<div id="html_0728deefa405c6e9d12f844f274f0755" style="width: 100.0%; height: 100.0%;">NO-Station: Landshut/Podewilsstraße. Durchschnittswert: 9.69</div>`)[0];
+                popup_58fd67d6e9e7487eb45c3b5e73897905.setContent(html_0728deefa405c6e9d12f844f274f0755);
+            
+        
+
+        circle_marker_cea991a6ca19bc0147ea10c0187fb560.bindPopup(popup_58fd67d6e9e7487eb45c3b5e73897905)
+        ;
+
+        
+    
+    
+            var circle_marker_18865beb1e2a50b88be98014de721531 = L.circleMarker(
+                [47.5644082, 9.6790468],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.772011269404934, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_9292eda349277793f999d2ea976700c6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dae98a90dd4c33f2d14f5e63fac500e0 = $(`<div id="html_dae98a90dd4c33f2d14f5e63fac500e0" style="width: 100.0%; height: 100.0%;">NO-Station: Lindau (Bodensee)/Friedrichshafener Str.. Durchschnittswert: 7.77</div>`)[0];
+                popup_9292eda349277793f999d2ea976700c6.setContent(html_dae98a90dd4c33f2d14f5e63fac500e0);
+            
+        
+
+        circle_marker_18865beb1e2a50b88be98014de721531.bindPopup(popup_9292eda349277793f999d2ea976700c6)
+        ;
+
+        
+    
+    
+            var circle_marker_ff055128c3c04795bed01662d757b72e = L.circleMarker(
+                [48.1815583, 12.7812006],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.7257245839559263, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_82c8f32d50926440c06ab933780b0c59 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eaf5e4a3dd9de61c957b42b35ed57099 = $(`<div id="html_eaf5e4a3dd9de61c957b42b35ed57099" style="width: 100.0%; height: 100.0%;">NO-Station: Mehring/Sportplatz. Durchschnittswert: 2.73</div>`)[0];
+                popup_82c8f32d50926440c06ab933780b0c59.setContent(html_eaf5e4a3dd9de61c957b42b35ed57099);
+            
+        
+
+        circle_marker_ff055128c3c04795bed01662d757b72e.bindPopup(popup_82c8f32d50926440c06ab933780b0c59)
+        ;
+
+        
+    
+    
+            var circle_marker_2fb1f4feca9b1f782859fdfbd4c6f54c = L.circleMarker(
+                [48.1900336, 11.4681053],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.34716154714786, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_0a7ba1474c960fc85e9ed52e15ae62d2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bbabcb28f5d7aea42c89cf16cd02e8d0 = $(`<div id="html_bbabcb28f5d7aea42c89cf16cd02e8d0" style="width: 100.0%; height: 100.0%;">NO-Station: München/Allach. Durchschnittswert: 10.35</div>`)[0];
+                popup_0a7ba1474c960fc85e9ed52e15ae62d2.setContent(html_bbabcb28f5d7aea42c89cf16cd02e8d0);
+            
+        
+
+        circle_marker_2fb1f4feca9b1f782859fdfbd4c6f54c.bindPopup(popup_0a7ba1474c960fc85e9ed52e15ae62d2)
+        ;
+
+        
+    
+    
+            var circle_marker_84df0ca7843d3d3a955cee37e234ceab = L.circleMarker(
+                [48.1692948, 11.649074],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.27826761414835, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_d4f87fc8803f6cf54bff095e4a689bd0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c8748075997131733dbe49bb762fbc25 = $(`<div id="html_c8748075997131733dbe49bb762fbc25" style="width: 100.0%; height: 100.0%;">NO-Station: München/Johanneskirchen. Durchschnittswert: 5.28</div>`)[0];
+                popup_d4f87fc8803f6cf54bff095e4a689bd0.setContent(html_c8748075997131733dbe49bb762fbc25);
+            
+        
+
+        circle_marker_84df0ca7843d3d3a955cee37e234ceab.bindPopup(popup_d4f87fc8803f6cf54bff095e4a689bd0)
+        ;
+
+        
+    
+    
+            var circle_marker_e11aa4e0a06434b1fd291e655b40c637 = L.circleMarker(
+                [48.1511143, 11.5371453],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 69.28892107994662, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_89b816e71ad7d0ad7dd5121564d95100 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_62e08b51b2cc624dc2406cb68e15767b = $(`<div id="html_62e08b51b2cc624dc2406cb68e15767b" style="width: 100.0%; height: 100.0%;">NO-Station: München/Landshuter Allee. Durchschnittswert: 69.29</div>`)[0];
+                popup_89b816e71ad7d0ad7dd5121564d95100.setContent(html_62e08b51b2cc624dc2406cb68e15767b);
+            
+        
+
+        circle_marker_e11aa4e0a06434b1fd291e655b40c637.bindPopup(popup_89b816e71ad7d0ad7dd5121564d95100)
+        ;
+
+        
+    
+    
+            var circle_marker_2c24e352ef42a2f01250f915c21a20cf = L.circleMarker(
+                [48.1515295, 11.5488098],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.713702364521906, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_a5db1019028c99117872bf9e4f8a614e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_96cebf1ea1a5e65a2b999bd91e62b0e0 = $(`<div id="html_96cebf1ea1a5e65a2b999bd91e62b0e0" style="width: 100.0%; height: 100.0%;">NO-Station: München/Lothstraße. Durchschnittswert: 9.71</div>`)[0];
+                popup_a5db1019028c99117872bf9e4f8a614e.setContent(html_96cebf1ea1a5e65a2b999bd91e62b0e0);
+            
+        
+
+        circle_marker_2c24e352ef42a2f01250f915c21a20cf.bindPopup(popup_a5db1019028c99117872bf9e4f8a614e)
+        ;
+
+        
+    
+    
+            var circle_marker_0fe96a7b1d528dcc6b44758d8f4cfbe3 = L.circleMarker(
+                [48.1394857, 11.565622],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 28.676152889781115, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_e109579956d2becdc590b93f043db376 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3d024a20b1bb63b7b2a059c9ddf2c9ba = $(`<div id="html_3d024a20b1bb63b7b2a059c9ddf2c9ba" style="width: 100.0%; height: 100.0%;">NO-Station: München/Stachus. Durchschnittswert: 28.68</div>`)[0];
+                popup_e109579956d2becdc590b93f043db376.setContent(html_3d024a20b1bb63b7b2a059c9ddf2c9ba);
+            
+        
+
+        circle_marker_0fe96a7b1d528dcc6b44758d8f4cfbe3.bindPopup(popup_e109579956d2becdc590b93f043db376)
+        ;
+
+        
+    
+    
+            var circle_marker_42d0714d27476ddd0794bc10e963d67e = L.circleMarker(
+                [48.3968618, 10.0079529],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.887499857421496, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_61ee041f3c0272f227626d89e38894ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b4f6fcf489e6a629c046803c77df6cf = $(`<div id="html_9b4f6fcf489e6a629c046803c77df6cf" style="width: 100.0%; height: 100.0%;">NO-Station: Neu-Ulm/Gabelsbergerstraße. Durchschnittswert: 9.89</div>`)[0];
+                popup_61ee041f3c0272f227626d89e38894ec.setContent(html_9b4f6fcf489e6a629c046803c77df6cf);
+            
+        
+
+        circle_marker_42d0714d27476ddd0794bc10e963d67e.bindPopup(popup_61ee041f3c0272f227626d89e38894ec)
+        ;
+
+        
+    
+    
+            var circle_marker_77878dd165f7ef04ba67435ea1ecbd99 = L.circleMarker(
+                [49.5786857, 10.6248324],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.4757103261055537, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_8d705505e78b47cdc8766acce0ff0cb6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0e3da1eaefe36154d0a285ecfab959b3 = $(`<div id="html_0e3da1eaefe36154d0a285ecfab959b3" style="width: 100.0%; height: 100.0%;">NO-Station: Neustadt a.d.Aisch/An der Weißen Marter. Durchschnittswert: 0.48</div>`)[0];
+                popup_8d705505e78b47cdc8766acce0ff0cb6.setContent(html_0e3da1eaefe36154d0a285ecfab959b3);
+            
+        
+
+        circle_marker_77878dd165f7ef04ba67435ea1ecbd99.bindPopup(popup_8d705505e78b47cdc8766acce0ff0cb6)
+        ;
+
+        
+    
+    
+            var circle_marker_7d3a217dbf20447d64bf7fd11487d730 = L.circleMarker(
+                [48.8544634, 11.771948],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5881876561234616, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_38f381739a9f6615f9666f06f147ad02 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f39684f9e5de2fad35b38cc14895ed74 = $(`<div id="html_f39684f9e5de2fad35b38cc14895ed74" style="width: 100.0%; height: 100.0%;">NO-Station: Neustadt a.d.Donau/Eining. Durchschnittswert: 1.59</div>`)[0];
+                popup_38f381739a9f6615f9666f06f147ad02.setContent(html_f39684f9e5de2fad35b38cc14895ed74);
+            
+        
+
+        circle_marker_7d3a217dbf20447d64bf7fd11487d730.bindPopup(popup_38f381739a9f6615f9666f06f147ad02)
+        ;
+
+        
+    
+    
+            var circle_marker_314466c6c36452d14b0dddde8064b624 = L.circleMarker(
+                [49.4483959, 11.1393347],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.385703368274571, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_42a357e51917334fa541e001cc5c1d2d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_09bcafd707d4ce699a26ee1ef6796248 = $(`<div id="html_09bcafd707d4ce699a26ee1ef6796248" style="width: 100.0%; height: 100.0%;">NO-Station: Nürnberg/Bahnhof. Durchschnittswert: 15.39</div>`)[0];
+                popup_42a357e51917334fa541e001cc5c1d2d.setContent(html_09bcafd707d4ce699a26ee1ef6796248);
+            
+        
+
+        circle_marker_314466c6c36452d14b0dddde8064b624.bindPopup(popup_42a357e51917334fa541e001cc5c1d2d)
+        ;
+
+        
+    
+    
+            var circle_marker_28126ae13c36a71940d6d2d63bb83d75 = L.circleMarker(
+                [49.4616933, 11.0227221],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.348017018170205, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_a2482dea90dfc78140854280356d2858 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a58effdb432785495bde6e78593f5d4c = $(`<div id="html_a58effdb432785495bde6e78593f5d4c" style="width: 100.0%; height: 100.0%;">NO-Station: Nürnberg/Muggenhof. Durchschnittswert: 9.35</div>`)[0];
+                popup_a2482dea90dfc78140854280356d2858.setContent(html_a58effdb432785495bde6e78593f5d4c);
+            
+        
+
+        circle_marker_28126ae13c36a71940d6d2d63bb83d75.bindPopup(popup_a2482dea90dfc78140854280356d2858)
+        ;
+
+        
+    
+    
+            var circle_marker_04e841cbeb2fe4bb5ab233519f706d7b = L.circleMarker(
+                [49.4484349, 11.0364525],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40.916175246090496, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_3877edbb16719cfe88d4aa8a148970b8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f4f830925fe1eb2cd7b1cefacde354e6 = $(`<div id="html_f4f830925fe1eb2cd7b1cefacde354e6" style="width: 100.0%; height: 100.0%;">NO-Station: Nürnberg/Von-der-Tann-Straße. Durchschnittswert: 40.92</div>`)[0];
+                popup_3877edbb16719cfe88d4aa8a148970b8.setContent(html_f4f830925fe1eb2cd7b1cefacde354e6);
+            
+        
+
+        circle_marker_04e841cbeb2fe4bb5ab233519f706d7b.bindPopup(popup_3877edbb16719cfe88d4aa8a148970b8)
+        ;
+
+        
+    
+    
+            var circle_marker_1734844e1509fa0f646e4c1b3b4a6186 = L.circleMarker(
+                [48.9523755, 10.5980142],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.882697813416067, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_13e27ec0e0b9d9434c35fa5816c831c4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_35c79c60c295e76c6c87f8ce44ba733d = $(`<div id="html_35c79c60c295e76c6c87f8ce44ba733d" style="width: 100.0%; height: 100.0%;">NO-Station: Oettingen/Goethestraße. Durchschnittswert: 3.88</div>`)[0];
+                popup_13e27ec0e0b9d9434c35fa5816c831c4.setContent(html_35c79c60c295e76c6c87f8ce44ba733d);
+            
+        
+
+        circle_marker_1734844e1509fa0f646e4c1b3b4a6186.bindPopup(popup_13e27ec0e0b9d9434c35fa5816c831c4)
+        ;
+
+        
+    
+    
+            var circle_marker_b7a042e088e400b057283d79eb28a053 = L.circleMarker(
+                [48.5776575, 13.4597505],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.437590537349864, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_6790cf9e5bbd269d2d3bff8669633eb3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bb867fd796c5977a842eb809205231fa = $(`<div id="html_bb867fd796c5977a842eb809205231fa" style="width: 100.0%; height: 100.0%;">NO-Station: Passau/Angerstraße. Durchschnittswert: 12.44</div>`)[0];
+                popup_6790cf9e5bbd269d2d3bff8669633eb3.setContent(html_bb867fd796c5977a842eb809205231fa);
+            
+        
+
+        circle_marker_b7a042e088e400b057283d79eb28a053.bindPopup(popup_6790cf9e5bbd269d2d3bff8669633eb3)
+        ;
+
+        
+    
+    
+            var circle_marker_aad8d4e61b42f326a53ebf6eaaddf4cb = L.circleMarker(
+                [48.5718029, 13.4210388],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 21.745081041621518, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_b489d860080236c72da4319cb708bfca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_348dd1880e231302d05d6965fa0b9964 = $(`<div id="html_348dd1880e231302d05d6965fa0b9964" style="width: 100.0%; height: 100.0%;">NO-Station: Passau/Stelzhamerstraße. Durchschnittswert: 21.75</div>`)[0];
+                popup_b489d860080236c72da4319cb708bfca.setContent(html_348dd1880e231302d05d6965fa0b9964);
+            
+        
+
+        circle_marker_aad8d4e61b42f326a53ebf6eaaddf4cb.bindPopup(popup_b489d860080236c72da4319cb708bfca)
+        ;
+
+        
+    
+    
+            var circle_marker_d4b854d240a036246925392b5453df21 = L.circleMarker(
+                [49.0203667, 12.0948545],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 21.8907848661473, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_8af538aad9235a33e989b4272b9eca03 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c37804b3c76953664004a46b4e90472f = $(`<div id="html_c37804b3c76953664004a46b4e90472f" style="width: 100.0%; height: 100.0%;">NO-Station: Regensburg/Rathaus. Durchschnittswert: 21.89</div>`)[0];
+                popup_8af538aad9235a33e989b4272b9eca03.setContent(html_c37804b3c76953664004a46b4e90472f);
+            
+        
+
+        circle_marker_d4b854d240a036246925392b5453df21.bindPopup(popup_8af538aad9235a33e989b4272b9eca03)
+        ;
+
+        
+    
+    
+            var circle_marker_1194930414c8cd57e45e12a8a47405c7 = L.circleMarker(
+                [48.9048753, 11.9402519],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.586374057556091, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_f7cd23b0c86639a63872edff5ce3b35c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bb5010ab4ec06f16dde2799476132205 = $(`<div id="html_bb5010ab4ec06f16dde2799476132205" style="width: 100.0%; height: 100.0%;">NO-Station: Saal a.d.Donau/Auf dem Gries. Durchschnittswert: 4.59</div>`)[0];
+                popup_f7cd23b0c86639a63872edff5ce3b35c.setContent(html_bb5010ab4ec06f16dde2799476132205);
+            
+        
+
+        circle_marker_1194930414c8cd57e45e12a8a47405c7.bindPopup(popup_f7cd23b0c86639a63872edff5ce3b35c)
+        ;
+
+        
+    
+    
+            var circle_marker_ce46c88324df9834a90829326600bb5a = L.circleMarker(
+                [48.9025883, 11.9394926],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.3908247881283433, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_ee5009327495d4d8cdda3176565453a6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_089411aa983e979b2b5b79d1bd829fb1 = $(`<div id="html_089411aa983e979b2b5b79d1bd829fb1" style="width: 100.0%; height: 100.0%;">NO-Station: Saal a.d.Donau/Regensburger Straße. Durchschnittswert: 2.39</div>`)[0];
+                popup_ee5009327495d4d8cdda3176565453a6.setContent(html_089411aa983e979b2b5b79d1bd829fb1);
+            
+        
+
+        circle_marker_ce46c88324df9834a90829326600bb5a.bindPopup(popup_ee5009327495d4d8cdda3176565453a6)
+        ;
+
+        
+    
+    
+            var circle_marker_de28f88a4f31ef64bcf942a5b4c93bc1 = L.circleMarker(
+                [49.3235026, 11.0307463],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.9936809207149455, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_466778c4c6790f99c4679a8b7513c9bc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_114d96a66f5080410ff3786389c58937 = $(`<div id="html_114d96a66f5080410ff3786389c58937" style="width: 100.0%; height: 100.0%;">NO-Station: Schwabach/Angerstraße. Durchschnittswert: 7.99</div>`)[0];
+                popup_466778c4c6790f99c4679a8b7513c9bc.setContent(html_114d96a66f5080410ff3786389c58937);
+            
+        
+
+        circle_marker_de28f88a4f31ef64bcf942a5b4c93bc1.bindPopup(popup_466778c4c6790f99c4679a8b7513c9bc)
+        ;
+
+        
+    
+    
+            var circle_marker_08b464ea249eb6a5b353caad62a77527 = L.circleMarker(
+                [49.3169249, 12.1475784],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.6386718527221085, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_a56b44eaf42238fe13d386fcf5bcfe29 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6b7fc866f4a1bfae220a5e281a5d38e3 = $(`<div id="html_6b7fc866f4a1bfae220a5e281a5d38e3" style="width: 100.0%; height: 100.0%;">NO-Station: Schwandorf/Wackersdorfer Straße. Durchschnittswert: 6.64</div>`)[0];
+                popup_a56b44eaf42238fe13d386fcf5bcfe29.setContent(html_6b7fc866f4a1bfae220a5e281a5d38e3);
+            
+        
+
+        circle_marker_08b464ea249eb6a5b353caad62a77527.bindPopup(popup_a56b44eaf42238fe13d386fcf5bcfe29)
+        ;
+
+        
+    
+    
+            var circle_marker_b23593d2b0e471baf28ec77e887dd739 = L.circleMarker(
+                [50.0506058, 10.2310509],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.548710520012318, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_7e3085b424e7674b11f8e8ac04f05ed5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c822b698b7e52f6f93274948cc09271e = $(`<div id="html_c822b698b7e52f6f93274948cc09271e" style="width: 100.0%; height: 100.0%;">NO-Station: Schweinfurt/Obertor. Durchschnittswert: 7.55</div>`)[0];
+                popup_7e3085b424e7674b11f8e8ac04f05ed5.setContent(html_c822b698b7e52f6f93274948cc09271e);
+            
+        
+
+        circle_marker_b23593d2b0e471baf28ec77e887dd739.bindPopup(popup_7e3085b424e7674b11f8e8ac04f05ed5)
+        ;
+
+        
+    
+    
+            var circle_marker_d327b7fbb3d7a54fccb3ea404e34e143 = L.circleMarker(
+                [49.4387336, 12.5521509],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.4464874359822518, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_153561a8ea99d1a2f2b64d7562f0f1d9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d939e84f1135daf165739b9437771292 = $(`<div id="html_d939e84f1135daf165739b9437771292" style="width: 100.0%; height: 100.0%;">NO-Station: Tiefenbach/Altenschneeberg. Durchschnittswert: 0.45</div>`)[0];
+                popup_153561a8ea99d1a2f2b64d7562f0f1d9.setContent(html_d939e84f1135daf165739b9437771292);
+            
+        
+
+        circle_marker_d327b7fbb3d7a54fccb3ea404e34e143.bindPopup(popup_153561a8ea99d1a2f2b64d7562f0f1d9)
+        ;
+
+        
+    
+    
+            var circle_marker_b547a305fccc90198cda02f9b1d6dbb2 = L.circleMarker(
+                [48.0202038, 12.5411346],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.407329675719451, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_e6af04428e2e33ff712e2fd7a95e3007 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ed8369b3e79722fbfede6917f4a9f284 = $(`<div id="html_ed8369b3e79722fbfede6917f4a9f284" style="width: 100.0%; height: 100.0%;">NO-Station: Trostberg/Schwimmbadstraße. Durchschnittswert: 6.41</div>`)[0];
+                popup_e6af04428e2e33ff712e2fd7a95e3007.setContent(html_ed8369b3e79722fbfede6917f4a9f284);
+            
+        
+
+        circle_marker_b547a305fccc90198cda02f9b1d6dbb2.bindPopup(popup_e6af04428e2e33ff712e2fd7a95e3007)
+        ;
+
+        
+    
+    
+            var circle_marker_aeed1acb90d026ffa0a35b4dd72ba3b1 = L.circleMarker(
+                [49.6796064, 12.1608439],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.265503986494965, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_5d296c897df6a20c734daba78f227a8b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cf5ab9d24b2b1533be3a3971baacaae9 = $(`<div id="html_cf5ab9d24b2b1533be3a3971baacaae9" style="width: 100.0%; height: 100.0%;">NO-Station: Weiden i.d.OPf./Nikolaistraße. Durchschnittswert: 10.27</div>`)[0];
+                popup_5d296c897df6a20c734daba78f227a8b.setContent(html_cf5ab9d24b2b1533be3a3971baacaae9);
+            
+        
+
+        circle_marker_aeed1acb90d026ffa0a35b4dd72ba3b1.bindPopup(popup_5d296c897df6a20c734daba78f227a8b)
+        ;
+
+        
+    
+    
+            var circle_marker_a352bcf40e12e85ce614691ea439351b = L.circleMarker(
+                [49.8045664, 9.956954],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ae8f10b6562d43e157277e8b1436e68);
+        
+    
+        var popup_2ceb24089cd61db3e9c0fd1c49c9c233 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1ec28cf9ad2ddbf61135277ade74efe4 = $(`<div id="html_1ec28cf9ad2ddbf61135277ade74efe4" style="width: 100.0%; height: 100.0%;">NO-Station: Würzburg/Kopfklinik. Durchschnittswert: 0.0</div>`)[0];
+                popup_2ceb24089cd61db3e9c0fd1c49c9c233.setContent(html_1ec28cf9ad2ddbf61135277ade74efe4);
+            
+        
+
+        circle_marker_a352bcf40e12e85ce614691ea439351b.bindPopup(popup_2ceb24089cd61db3e9c0fd1c49c9c233)
+        ;
+
+        
+    
+</script>
+</html>
