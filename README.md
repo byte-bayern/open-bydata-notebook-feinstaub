@@ -1,5 +1,7 @@
 # Workshop: Feinstaub-Messwerte in Bayern analysieren
 
+In Binder öffnen: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/byte-bayern/open-bydata-notebook-feinstaub/HEAD?urlpath=%2Fdoc%2Ftree%2Ffeinstaub_messwerte.ipynb)
+
 ## Workshop-Ziele und Inhalte
 
 Dieser Workshop richtet sich an Einsteiger:innen und Interessierte, die sich mit offenen Daten beschäftigen möchten. Gemeinsam analysieren wir Luftqualitätsdaten aus Bayern und lernen dabei, wie man öffentlich verfügbare Daten nutzt, aufbereitet und visualisiert.
