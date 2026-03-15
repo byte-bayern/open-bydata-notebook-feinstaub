@@ -1,5 +1,9 @@
 # Workshop: Emissionen in Bayern analysieren
 
+In Binder öffnen: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/byte-bayern/open-bydata-notebook-emission/ce68e637944b9379ebbab9d27c2cd9d43fbd674e?urlpath=lab%2Ftree%2Femissionen_workshop.ipynb)
+
+In Google Colab öffnen: [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/byte-bayern/open-bydata-notebook-emission/blob/main/emissionen_workshop.ipynb) (Google-Konto notwendig)
+
 ## Workshop-Ziele und Inhalte
 
 Dieser Workshop richtet sich an Einsteiger:innen und Interessierte, die sich mit offenen Daten beschäftigen möchten. Gemeinsam analysieren wir Luftqualitätsdaten aus Bayern und lernen dabei, wie man öffentlich verfügbare Daten nutzt, aufbereitet und visualisiert.
